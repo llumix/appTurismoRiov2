@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imgvlogo"
+        android:src="@mipmap/ic_launcher"
+        android:paddingTop="5dp"
+        android:layout_weight="0.07"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="opcion"
+        android:id="@+id/txtvopcion"
+        android:layout_weight="0.06"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
