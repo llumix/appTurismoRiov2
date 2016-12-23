@@ -12,9 +12,9 @@ import android.widget.TextView;
 import com.riobamba.appturismorio.R;
 import com.riobamba.appturismorio.model.MenuAdapter;
 import com.riobamba.appturismorio.model.entity.cMenu;
+import com.riobamba.appturismorio.ui.edificios.MenuEdificiosActivity;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class MenuUrbanoPatrimonialActivity extends AppCompatActivity {
 
@@ -56,7 +56,7 @@ public class MenuUrbanoPatrimonialActivity extends AppCompatActivity {
 
         });
 
-      /*  menuUrbano.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        menuUrbano.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 //cMenu elegido = (cMenu) parent.getItemAtPosition(position);
@@ -64,12 +64,12 @@ public class MenuUrbanoPatrimonialActivity extends AppCompatActivity {
                 switch (position) {
                     case 0:
 
-                        Intent intent = new Intent(getApplicationContext(), MenuUrbanoPatrimonialActivity.class);
+                        Intent intent = new Intent(getApplicationContext(), MenuEdificiosActivity.class);
                         startActivity(intent);
                         break;
                     case 1:
 
-                        Intent intent1 = new Intent(getApplicationContext(), MenuUrbanoPatrimonialActivity.class);
+                        Intent intent1 = new Intent(getApplicationContext(), MenuEdificiosActivity.class);
                         startActivity(intent1);
                         break;
 
@@ -77,7 +77,7 @@ public class MenuUrbanoPatrimonialActivity extends AppCompatActivity {
                 }
 
             }
-        });*/
+        });
 
 
 
