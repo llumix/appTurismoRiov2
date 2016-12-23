@@ -23,7 +23,6 @@
         android:layout_weight="0.12"
         android:paddingLeft="10dp"
         android:paddingTop="10dp"
-        android:autoText="false"
         android:textSize="20sp" />
 
 
