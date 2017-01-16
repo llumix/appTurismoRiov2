@@ -1,4 +1,143 @@
 <resources>
     <string name="app_name">appTurismoRiov2</string>
     <string name="title_activity_main2">Main2Activity</string>
+
+    <!--RUTA URBANO PATRIMONIAL-->
+    <!-- IGLESIA LA MERCED-->
+    <string name="iglesiaLaMercedTitulo"> IGLESIA LA MERCED</string>
+    <string name="iglesiaLaMercedDireccion">Dirección: calle Eugenio Espejo y Guayaquil</string>
+    <!-- IGLESIA CAPILLA DE SANTA BARBARA -->
+    <string name="iglesiaSantaBarbaraTitulo"> CAPILLA DE SANTA BÁRBARA</string>
+    <string name="iglesiaSantaBarbaraDireccion">Dirección: calle Veloz y Eugenio Espejo</string>
+    <!-- IGLESIA LA BASILICA -->
+    <string name="iglesiaLaBasilicaTitulo"> IGLESIA LA BASÍLICA</string>
+    <string name="iglesiaLaBasilicaDireccion">Dirección: calle Veloz entre Benalcázar y Pedro de Alvarado</string>
+    <!-- IGLESIA SAN ALFONSO -->
+    <string name="iglesiaSanAlfonsoTitulo"> IGLESIA SAN ALFONSO</string>
+    <string name="iglesiaSanAlfonsoDireccion">Dirección: calle Argentinos y 5 de Junio</string>
+    <!-- IGLESIA CAPILLA EL SACRILEGIO-->
+    <string name="iglesiaSacrilegioTitulo"> CAPILLA EL SACRILEGIO</string>
+    <string name="iglesiaSacrilegioDireccion">Dirección: calle Veloz y Juan de Velasco</string>
+    <!-- IGLESIA LA CONCEPCION)-->
+    <string name="iglesiaConcepcionTitulo"> IGLESIA LA CONCEPCIÓN</string>
+    <string name="iglesiaConcepcionDireccion">Dirección: calle Orozco y Colón</string>
+    <!-- IGLESIA LA CATEDRAL)-->
+    <string name="iglesiaCatedralTitulo"> IGLESIA LA CATEDRAL</string>
+    <string name="iglesiaCatedralDirecccion">Dirección: calle Veloz entre Espejo y 5 de Junio</string>
+    <!-- IGLESIA SAN ANTONIO  -->
+    <string name="iglesiaSanAntonioTitulo">IGLESIA SAN ANTONIO DE PADUA</string>
+    <string name="iglesiaSanAntonioDireccion">Dirección: calle Argentinos y Juan Lavalle</string>
+
+    <!-- EFDIFICIO DEL SRI  -->
+    <string name="edificioSRITitulo">EDIFICIO DEL SRI</string>
+    <string name="edificioSRIDireccion">Dirección:  calle Primera Constituyente y Eugenio Espejo</string>
+    <!-- EFDIFICIO DEL CORREO  -->
+    <string name="edificioCorreoTitulo">EDIFICIO DEL CORREO</string>
+    <string name="edificioCorreoDireccion">Dirección: calle 10 de Agosto y Eugenio Espejo</string>
+    <!-- EFDIFICIO CASA CALERO  -->
+    <string name="edificioCasaCaleroTitulo">CASA CALERO</string>
+    <string name="edificioCasaCaleroDireccion">Dirección: calle Evangelista Calero y Avenida Unidad Nacional</string>
+    <!-- EFDIFICIO DE LA GOBERNACION  -->
+    <string name="edificioGobernacionTitulo">EDIFICIO DE LA GOBERNACIÓN</string>
+    <string name="edificioGobernacionDireccion">Dirección: calle Primera Constituyente y 5 de Junio</string>
+    <!-- OLIMPICO DE RIOBAMBA  -->
+    <string name="edificioOlimpicoTitulo">OLÍMPICO DE RIOBAMBA</string>
+    <string name="edificioOlimpicoDireccion">Dirección: Avenida Carlos Zambrano y Avenida Unidad Nacional</string>
+    <!-- CASA DE BOLÍVAR  -->
+    <string name="edificioCasaBolivarTitulo">CASA DE BOLÍVAR</string>
+    <string name="edificioCasaBolivarDireccion">Dirección: calle Primera Constituyente y Rocafuerte</string>
+    <!-- CASA DE LA INDEPENDENCIA  -->
+    <string name="edificioCasaIndependenciaTitulo">CASA DE LA INDEPENDENCIA</string>
+    <string name="edificioCasaIndependenciaDireccion">Dirección: calle Primera Constituyente y 5 de Junio</string>
+    <!-- PALACIO MUNICIPAL  -->
+    <string name="edificioPalacioMunicipalTitulo">PALACIO MUNICIPAL</string>
+    <string name="edificioPalacioMunicipalDireccion">Dirección: calle 5 de Junio y José Veloz</string>
+    <!-- PLAZA DE TOROS RAUL DAVALOS  -->
+    <string name="edificioPlazaTorosTitulo">PLAZA DE TOROS RAÚL DÁVALOS</string>
+    <string name="edificioPlazaTorosDireccion">Dirección: Av. Unidad Nacional y Av. Miguel Ángel León</string>
+    <!-- RELOJ DE LARA  -->
+    <string name="edificioRelojLaraTitulo">RELOJ DE LARA</string>
+    <string name="edificioRelojLaraDireccion">Dirección: calle José Veloz y España</string>
+    <!-- ESTACION DEL FERROCARRIL  -->
+    <string name="edificioEstacionTitulo">ESTACION DEL FERROCARRIL</string>
+    <string name="edificioEstacionDireccion">Dirección: Avenida Daniel León Borja y Caraboboa</string>
+    <!-- COLEGIO MALDONADO  -->
+    <string name="edificioMaldonadoTitulo">COLEGIO MALDONADO</string>
+    <string name="edificioMaldonadoDireccion">Dirección: calle Primera Constituyente entre España y Juan Larrea</string>
+    <!-- TEATRO LEON  -->
+    <string name="edificioTeatroLeonTitulo">TEATRO LEÓN</string>
+    <string name="edificioTeatroLeonDireccion">Dirección: calle Primera Constituyente y España</string>
+
+    <!-- PARQUE LA LIBERTAD  -->
+    <string name="parqueLaLibertadTitulo">PARQUE LA LIBERTAD</string>
+    <string name="parqueLaLibertadDireccion">Dirección: calle Primera Constituyente y Sebastián de Benalcázar</string>
+    <!-- PARQUE 21 DE ABRIL  -->
+    <string name="parque21DeAbrilTitulo">PARQUE 21 DE ABRIL</string>
+    <string name="parque21DeAbrilDireccion">Dirección: calle Argentinos y Juan Lavalle</string>
+    <!-- PARQUE ECOLÓGICO  -->
+    <string name="parqueEcologicoTitulo">PARQUE ECOLÓGICO</string>
+    <string name="parqueEcologicoDireccion">Dirección: calle Reino Unido y Avenida 09 de Octubre</string>
+    <!-- PARQUE SUCRE  -->
+    <string name="parqueSucreTitulo">PARQUE SUCRE</string>
+    <string name="parqueSucreDireccion">Dirección: calle 10 de Agosto entre España y Larrea</string>
+    <!-- PARQUE RICPAMBA -->
+    <string name="parqueRicpambaTitulo">PARQUE RICPAMBA</string>
+    <string name="parqueRicpambaDireccion">Dirección: calle Diego de Rodriguez y Av. Ecuador</string>
+    <!-- PARQUE MALDONADO -->
+    <string name="parqueMaldonadoTitulo">PARQUE MALDONADO</string>
+    <string name="parqueMaldonadoDireccion">Dirección: calle Primera Constituyente entre 5 de Junio y Eugenio Espejo</string>
+    <!-- PARQUE GUAYAQUIL -->
+    <string name="parqueGuayaquilTitulo">PARQUE GUAYAQUIL</string>
+    <string name="parqueGuayaquilDireccion">Dirección: Av. Daniel León Borja y Carlos Zambrano</string>
+
+    <!-- MERCADO SAN FRANCISCO -->
+    <string name="mercadoSanFranciscoTitulo">MERCADO SAN FRANCISCO</string>
+    <string name="mercadoSanFranciscoDireccion">Dirección: calle Diego de Almagro y Primera Constituyente</string>
+    <!-- PLAZA ARTESANAL CONCEPCIÓN -->
+    <string name="plazaConcepcionTitulo">PLAZA ARTESANAL CONCEPCIÓN</string>
+    <string name="plazaConcepcionDireccion">Dirección: calle José de Orozco y Juan Larrea</string>
+    <!-- MERCADO LA MERCED -->
+    <string name="mercadoLaMercedTitulo">MERCADO LA MERCED</string>
+    <string name="mercadoLaMercedDireccion">Dirección: calle Guayaquil y Cristóbal Colon</string>
+    <!-- PLAZA ARTESANAL DEL TREN-->
+    <string name="plazaDelTrenTitulo">PLAZA ARTESANAL DEL TREN</string>
+    <string name="plazaDelTrenDireccion">Dirección: Av. Daniel León Borja y Carabobo</string>
+
+    <!-- CASA MUSEO DE LA CIUDAD-->
+    <string name="museoDeLaCIudadTitulo">CASA MUSEO DE LA CIUDAD</string>
+    <string name="museoDeLaCiudadDireccion">Dirección: calle Primera Constituyente y Eugenio Espejo</string>
+    <!-- MADRES CONCEPTAS-->
+    <string name="museoMadresConceptasTitulo">MADRES CONCEPTAS</string>
+    <string name="museoMadresConceptasDireccion">Dirección: calle Argentinos y Larrea</string>
+
+
+    <!--RUTA CHIMBORAZO-->
+    <!--ESCALADA LA CHORRERA-->
+    <string name="escaladaLaChorreraTitulo">ESCALADA LA CHORRERA</string>
+    <string name="escaladaLaChorreraDireccion">Ubicación: Se encuentra a 3.700 metros sobre el nivel del mar</string>
+    <!--CIRCUITO TEMPLO MACHAY-->
+    <string name="circuitoTemploMachayTitulo">CIRCUITO TEMPLO MACHAY</string>
+    <string name="circuitoTemploMachayDireccion">Ubicación: Se encuentra a 4.700 metros sobre el nivel del mar</string>
+    <!--CIRCUITO RUTAS DE ALTA MONTAÑA-->
+    <string name="altaMontañaTitulo">RUTAS DE ALTA MONTAÑA</string>
+    <string name="altaMontañaDireccion">Altitud: Su cumbre máxima tiene 6.263 metros sobre el nivel del mar</string>
+    <!--CIRCUITO POLYLEPIS-->
+    <string name="circuitoPolylepisTitulo">CIRCUITO POLYLEPIS</string>
+    <string name="circuitoPolylepisDireccion">Ubicación: Se encuentra a 4.350 metros sobre el nivel del mar</string>
+    <!--CIRCUITO TEMPLO MACHAY-->
+    <string name="rutaCiclisticaTitulo">RUTA CICLÍSTICA CHIMBORAZO</string>
+    <string name="rutaCiclisticaDireccion">Altitud:  Desde los 4.850 metros sobre el nivel del mar</string>
+
+
+    <!--RUTA PUERTAS AL ALTAR-->
+    <string name="rutaPuertasAltarTitulo">RUTA PUERTAS AL ALTAR</string>
+    <string name="rutaPuertasAltarDireccion">Altitud: Se encuentra desde 3.028 hasta 4.552 metros sobre el nivel del mar</string>
+
+
+    <string name="title_activity_informacion_iglesia">InformacionIglesiaActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_mapa_ruta">Map</string>
+    <string name="title_activity_mapas">Map</string>
+
 </resources>

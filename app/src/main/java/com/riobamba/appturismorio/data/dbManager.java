@@ -75,15 +75,17 @@ public class dbManager {
         valores.put("idLugar",imagen.idLugar.idLugar);
         db.insert("imagenLugar",null,valores);
     }
-    public Cursor cursorCargarInformacion(String idLugar)
+
+    public Cursor cursorCargarInformacion(String nombreLugar) //Carga la descripcion de un lugar
     {
         SQLiteDatabase db= dbHelper.getReadableDatabase();
-
-        String query= String.format("SELECT * FROM lugar where idLugar = "+idLugar);
+        String query= String.format("SELECT descripcionLugar FROM lugar where nombreLugar = '"+nombreLugar+"'");
         return db.rawQuery(query,null);
 
 
 
     }
+
+
 
 }

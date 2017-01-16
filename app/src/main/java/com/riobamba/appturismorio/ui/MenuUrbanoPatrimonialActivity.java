@@ -12,7 +12,11 @@ import android.widget.TextView;
 import com.riobamba.appturismorio.R;
 import com.riobamba.appturismorio.model.MenuAdapter;
 import com.riobamba.appturismorio.model.entity.cMenu;
-import com.riobamba.appturismorio.ui.edificios.MenuEdificiosActivity;
+import com.riobamba.appturismorio.ui.rutaUrbanoPatrimonial.MenuEdificiosActivity;
+import com.riobamba.appturismorio.ui.rutaUrbanoPatrimonial.MenuIglesiasActivity;
+import com.riobamba.appturismorio.ui.rutaUrbanoPatrimonial.MenuMuseosActivity;
+import com.riobamba.appturismorio.ui.rutaUrbanoPatrimonial.MenuParquesActivity;
+import com.riobamba.appturismorio.ui.rutaUrbanoPatrimonial.MenuPlazasMercadosActivity;
 
 import java.util.ArrayList;
 
@@ -59,19 +63,35 @@ public class MenuUrbanoPatrimonialActivity extends AppCompatActivity {
         menuUrbano.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                //cMenu elegido = (cMenu) parent.getItemAtPosition(position);
+                Intent intent;
 
                 switch (position) {
                     case 0:
 
-                        Intent intent = new Intent(getApplicationContext(), MenuEdificiosActivity.class);
+                        intent = new Intent(getApplicationContext(), MenuEdificiosActivity.class);
                         startActivity(intent);
                         break;
                     case 1:
 
-                        Intent intent1 = new Intent(getApplicationContext(), MenuEdificiosActivity.class);
-                        startActivity(intent1);
+                        intent = new Intent(getApplicationContext(), MenuIglesiasActivity.class);
+                        startActivity(intent);
                         break;
+                    case 2:
+
+                        intent = new Intent(getApplicationContext(), MenuMuseosActivity.class);
+                        startActivity(intent);
+                        break;
+                    case 3:
+
+                        intent = new Intent(getApplicationContext(), MenuParquesActivity.class);
+                        startActivity(intent);
+                        break;
+                    case 4:
+
+                        intent = new Intent(getApplicationContext(), MenuPlazasMercadosActivity.class);
+                        startActivity(intent);
+                        break;
+
 
 
                 }

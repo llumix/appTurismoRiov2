@@ -31,9 +31,9 @@ public class dbAplication extends Application {
         super.onTerminate();
     }
 
-    public void rellenarDatos()
+   public void rellenarDatos()
     {
-        modeloLugar objModeloLugar= new modeloLugar("1","san antonio","loma de quito","es una iglesia","-094954395","-987859");
+        modeloLugar objModeloLugar= new modeloLugar("1","Iglesia san antonio de padua","loma de quito","Este iglesia posee un estilo neogótico, se destacan las ventanas en forma de ojivas y la construcción de la edificación es de piedra y ladrillo visto. Pertenece al Monasterio de religiosas concepcionistas. Constituye una belleza arquitectónica y de gran valor cultural.","-094954395","-987859");
          dbManager.insertarLugar(objModeloLugar);
 
     }
@@ -43,6 +43,11 @@ public class dbAplication extends Application {
         return CursorToCollection.cursorToArrayNombres(c);
 
     }
+
+    public String getDescripcion(String nombreLugar)
+    {
+        Cursor c=dbManager.cursorCargarInformacion(nombreLugar);
+        return CursorToCollection.cursorToArrayDescripcion(c);    }
 
 
 

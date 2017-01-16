@@ -30,5 +30,17 @@ public class CursorToCollection {
         }
         return nombres;
     }
+    public static String cursorToArrayDescripcion(Cursor c)//Devuelve la descripcion de un lugar
+    {
+        String descripcion = "" ;
+        if(c.moveToFirst())
+        {
+
+                descripcion=(c.getString(0));
+
+
+        }
+        return descripcion;
+    }
 
 }

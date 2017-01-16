@@ -1,4 +1,4 @@
-package com.riobamba.appturismorio;
+package com.riobamba.appturismorio.ui;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -10,27 +10,25 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.google.android.gms.appindexing.Action;
-import com.google.android.gms.appindexing.AppIndex;
-import com.google.android.gms.appindexing.Thing;
-import com.google.android.gms.common.api.GoogleApiClient;
+import com.riobamba.appturismorio.R;
 import com.riobamba.appturismorio.model.MenuAdapter;
 import com.riobamba.appturismorio.model.entity.cMenu;
-import com.riobamba.appturismorio.ui.MenuUrbanoPatrimonialActivity;
+import com.riobamba.appturismorio.ui.Enlaces.EnlaceIdentidadTradicionActivity;
+import com.riobamba.appturismorio.ui.rutaChimborazo.MenuRutaChimborazoActivity;
+import com.riobamba.appturismorio.ui.rutaPuertasDelAltar.MenuRutaPuertasDelAltarActivity;
 
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity {
+public class MenuPrincipalActivity extends AppCompatActivity {
 
     private ListView lista;
-
-
+    //List<modeloLugar> nombres= new ArrayList<>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-      /*  //recojemos los datos
+       /* //recojemos los datos
          nombres=((dbAplication) getApplication()).getNombresLugar();
         //creamos el adapter y le pasamos la lista de nombres
          ArrayAdapter<String> adapter =new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,nombres);
@@ -75,19 +73,34 @@ public class MainActivity extends AppCompatActivity {
         lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                //cMenu elegido = (cMenu) parent.getItemAtPosition(position);
+                Intent intent;
+                Uri uri;
 
                 switch (position) {
                     case 0:
 
-                        Intent intent = new Intent(getApplicationContext(), MenuUrbanoPatrimonialActivity.class);
+                        intent = new Intent(getApplicationContext(), MenuUrbanoPatrimonialActivity.class);
                         startActivity(intent);
                         break;
                     case 1:
-
-                        Intent intent1 = new Intent(getApplicationContext(), MenuUrbanoPatrimonialActivity.class);
-                        startActivity(intent1);
+                        intent = new Intent(getApplicationContext(), MenuRutaChimborazoActivity.class);
+                        startActivity(intent);
                         break;
+                    case 2:
+                        intent = new Intent(getApplicationContext(), MenuRutaPuertasDelAltarActivity.class);
+                        startActivity(intent);
+                        break;
+                    case 7:
+                        //uri = Uri.parse("http://riobamba.com.ec/identidad.html");
+                        intent = new Intent(getApplicationContext(), EnlaceIdentidadTradicionActivity.class);
+                        startActivity(intent);
+                        break;
+                    case 8:
+                        uri = Uri.parse("http://riobamba.com.ec/puntos-de-informacion-turistica.html");
+                        intent = new Intent(Intent.ACTION_VIEW, uri);
+                        startActivity(intent);
+                        break;
+
 
 
                 }
