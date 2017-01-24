@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.riobamba.appturismorio.ui.rutaUrbanoPatrimonial.informacionLugarActivity">
+
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollinformacion"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/container"
+        android:fillViewport="false"
+        android:layout_above="@+id/lytBotones">
+
+       <com.bluejamesbond.text.DocumentView
+            xmlns:ext="http://schemas.android.com/apk/res-auto"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            ext:documentView_antialias="true"
+            ext:documentView_textAlignment="justified"
+            ext:documentView_textSize="14sp"
+            android:id="@+id/texto"
+           ext:documentView_cacheConfig="auto_quality"
+           ext:documentView_textFormat="plain"
+           ext:documentView_textSubPixel="true"
+           ext:documentView_lineHeightMultiplier="1.0"
+           ext:documentView_insetPaddingLeft="10dp"
+           ext:documentView_insetPaddingRight="10dp" />
+
+
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/lytBotones"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lugares Cercanos"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/btnLugares"
+            tools:ignore="ObsoleteLayoutParam" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trazar Ruta"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/btnRuta"
+            tools:ignore="ObsoleteLayoutParam" />
+    </LinearLayout>
+</RelativeLayout>

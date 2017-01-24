@@ -78,50 +78,50 @@ public class MenuIglesiasActivity extends AppCompatActivity {
                 switch (position) {
                     case 0:
 
-                        intent = new Intent(getApplicationContext(), InformacionIglesiaActivity.class);
+                        intent = new Intent(getApplicationContext(), informacionLugarActivity.class);
                         intent.putExtra("INFORMACION", "Iglesia la merced");
                         startActivity(intent);
                         break;
                     case 1:
 
-                        intent = new Intent(getApplicationContext(), InformacionIglesiaActivity.class);
-                        intent.putExtra("INFORMACION", "Iglesia la basílica");
+                        intent = new Intent(getApplicationContext(), informacionLugarActivity.class);
+                        intent.putExtra("INFORMACION", "Iglesia la basilica");
                         startActivity(intent);
                         break;
                     case 2:
 
-                        intent = new Intent(getApplicationContext(), InformacionIglesiaActivity.class);
+                        intent = new Intent(getApplicationContext(), informacionLugarActivity.class);
                         intent.putExtra("INFORMACION", "Capilla de santa bárbara");
                         startActivity(intent);
                         break;
                     case 3:
 
-                        intent = new Intent(getApplicationContext(), InformacionIglesiaActivity.class);
+                        intent = new Intent(getApplicationContext(), informacionLugarActivity.class);
                         intent.putExtra("INFORMACION", "Iglesia san alfonso");
                         startActivity(intent);
                         break;
                     case 4:
 
-                        intent = new Intent(getApplicationContext(), InformacionIglesiaActivity.class);
+                        intent = new Intent(getApplicationContext(), informacionLugarActivity.class);
                         intent.putExtra("INFORMACION", "Capilla el sacrilegio");
                         startActivity(intent);
                         break;
                     case 5:
 
-                        intent = new Intent(getApplicationContext(), InformacionIglesiaActivity.class);
-                        intent.putExtra("INFORMACION", "Iglesia la concepcion");
+                        intent = new Intent(getApplicationContext(), informacionLugarActivity.class);
+                        intent.putExtra("INFORMACION", "Iglesia la concepción");
                         startActivity(intent);
                         break;
                     case 6:
 
-                        intent = new Intent(getApplicationContext(), InformacionIglesiaActivity.class);
+                        intent = new Intent(getApplicationContext(), informacionLugarActivity.class);
                         intent.putExtra("INFORMACION", "Iglesia la catedral");
                         startActivity(intent);
                         break;
 
                     case 7:
 
-                        intent = new Intent(getApplicationContext(), InformacionIglesiaActivity.class);
+                        intent = new Intent(getApplicationContext(), informacionLugarActivity.class);
                         intent.putExtra("INFORMACION", "Iglesia san antonio de padua");
                         startActivity(intent);
                         break;

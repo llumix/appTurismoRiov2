@@ -22,7 +22,7 @@ public class dbHelper extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase db) {
 
         db.execSQL("CREATE TABLE lugar (idLugar INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,nombreLugar TEXT NOT NULL, direccionLugar TEXT NOT NULL, descripcionLugar TEXT NOT NULL, latitudLugar TEXT NOT NULL, longitudLugar TEXT NOT NULL)");
-        db.execSQL("CREATE TABLE imagenLugar (idImagen INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, pathImagen TEXT NOT NULL, idLugar INTEGER NOT NULL REFERENCES lugar(idLugar) )");
+        db.execSQL("CREATE TABLE imagenLugar (idImagen INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,nombreImagen TEXT NOT NULL,pathImagen TEXT NOT NULL, idLugar INTEGER NOT NULL REFERENCES lugar(idLugar) )");
 
     }
 

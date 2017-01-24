@@ -55,6 +55,7 @@
         <activity android:name=".ui.rutaChimborazo.MenuRutaChimborazoActivity" />
         <activity android:name=".ui.rutaPuertasDelAltar.MenuRutaPuertasDelAltarActivity" />
         <activity android:name=".ui.Enlaces.EnlaceIdentidadTradicionActivity" />
+        <activity android:name=".ui.rutaUrbanoPatrimonial.informacionLugarActivity" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").

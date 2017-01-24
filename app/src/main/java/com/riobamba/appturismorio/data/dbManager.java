@@ -81,8 +81,12 @@ public class dbManager {
         SQLiteDatabase db= dbHelper.getReadableDatabase();
         String query= String.format("SELECT descripcionLugar FROM lugar where nombreLugar = '"+nombreLugar+"'");
         return db.rawQuery(query,null);
-
-
+    }
+    public Cursor cursorCargarImagenes(String nombreLugar)
+    {
+        SQLiteDatabase db=dbHelper.getReadableDatabase();
+        String query=String.format("select pathImagen from imagenLugar, lugar where nombreLugar='"+nombreLugar+"' and imagenLugar.idLugar=lugar.idLugar");
+        return db.rawQuery(query,null);
 
     }
 

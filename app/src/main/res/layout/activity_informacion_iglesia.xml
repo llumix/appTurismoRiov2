@@ -50,13 +50,15 @@
         android:text="Lugares Cercanos"
         android:gravity="center_horizontal|center_vertical"
         android:layout_alignParentBottom="true"
-        android:id="@+id/btnLugares" />
+        android:id="@+id/btnLugares"
+        tools:ignore="ObsoleteLayoutParam" />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Trazar Ruta"
         android:gravity="center_horizontal|center_vertical"
         android:layout_alignParentBottom="true"
-        android:id="@+id/btnRuta" />
+        android:id="@+id/btnRuta"
+        tools:ignore="ObsoleteLayoutParam" />
     </LinearLayout>
 </RelativeLayout>

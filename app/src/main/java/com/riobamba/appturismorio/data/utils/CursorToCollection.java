@@ -42,5 +42,35 @@ public class CursorToCollection {
         }
         return descripcion;
     }
+   /* public static String[] cursorToString(Cursor cursor)
+    {
+        int i=0;
+        String[] nombres=new String[]{};
+        if(cursor.moveToFirst())
+        {
+            do {
+
+                nombres[i]=cursor.getString(1);
+                i++;
+            }while(cursor.moveToNext());
+        }
+        return nombres;
+
+    }*/
+   public static String[] cursorToString(Cursor cursor)
+   {
+       ArrayList<String> names=new ArrayList<>();
+
+       if(cursor.moveToFirst())
+       {
+           do {
+
+               names.add(cursor.getString(0));
+
+           }while(cursor.moveToNext());
+       }
+       return names.toArray(new String[names.size()]);
+
+   }
 
 }
